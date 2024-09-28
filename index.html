@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the Number Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- นำเข้าไฟล์ CSS -->
+    <link rel="stylesheet" type="text/css" href="materials.css">
+    <!-- นำเข้าไฟล์ JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Guess me a number!</h1>
+        <p class="between">(1-20)</p>
+        <button class="btn again">Again!!</button>
+        <div class="number">?</div>
+    </header>
+    <main>
+        <section class="left">
+            <input type="number" class="guess" placeholder="Enter your guess..." />
+            <button class="btn check">Check!</button>
+        </section>
+        <section class="right">
+            <p class="message">Start guessing...</p>
+            <p class="label-score">Score 💯 <span class="score">20</span></p>
+            <p class="label-highscore">
+                High Score 🏆 <span class="highscore">0</span>
+            </p>
+        </section>
+    </main>
+</body>
+</html>
